@@ -1,0 +1,23 @@
+<Patch>
+    <Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>Cupro's Alloys (Continued)</li>
+        </mods>
+    </Operation>
+    
+    <Operation Class="PatchOperationSequence">
+        <success>Always</success>
+        <operations>
+
+            <!-- Cupro's Alloys Metal's Patches -->
+            <li Class="PatchOperationReplace">
+                <xpath>/Defs/ThingDef[defName="CAL_Plastin" or defName="CAL_BlackSteel" or defName="CAL_Brass" or defName="CAL_ChromePlatedSteel" or defName="CAL_Aurichalcum" or defName="CAL_SterlingSilver" or defName="CAL_RoseGold" or defName="CAL_Electrum" or defName="CAL_Plumchalcum" or defName="CAL_Duralumin" or defName="CAL_Zamak" or defName="CAL_BismuthBronze" or defName="CAL_Bronze" or defName="CAL_Cupronickel" or defName="CAL_StainlessSteel" or defName="CAL_Hepatzion" or defName="CAL_Copper" or defName="CAL_Lead" or defName="CAL_Tin" or defName="CAL_Aluminum" or defName="CAL_Nickel" or defName="CAL_Zinc" or defName="CAL_Bismuth" or defName="CAL_Chromium"]/stuffProps/statFactors/Flammability</xpath>
+                <value>
+                    <Flammability>0</Flammability>
+                </value>
+            </li>
+
+        </operations>
+    </Operation>
+
+</Patch>

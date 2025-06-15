@@ -1,0 +1,26 @@
+<Patch>
+
+    <!--==========
+    Medieval Overhaul
+    ==========-->
+
+    <!--Remove burning from select materials-->
+    <Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>Medieval Overhaul</li>
+        </mods>
+        <match Class="PatchOperationSequence">
+            <success>Always</success>
+            <operations>
+                <!--Remove burning from select materials-->
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/ThingDef[defName="DankPyon_IronIngot"]/stuffProps/statFactors/Flammability</xpath>
+                    <value>
+                        <Flammability>0</Flammability>
+                    </value>
+                </li>
+            </operations>
+        </match>
+    </Operation>
+
+</Patch>

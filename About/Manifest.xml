@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 
 <Manifest>
-    <version>1.4.0</version>
+    <version>1.8.0</version>
     <showCrossPromotions>true</showCrossPromotions>
-    <manifestUri>https://raw.githubusercontent.com/Nonunon/rw-noburnmetal/master/About/Manifest.xml</manifestUri>
-    <downloadUri>https://github.com/Nonunon/rw-metaldoesntburn/releases/latest</downloadUri>
+    <manifestUri>https://raw.githubusercontent.com/Nonunon/NoBurnMetal/master/About/Manifest.xml</manifestUri>
+    <downloadUri>https://github.com/Nonunon/NoBurnMetal/releases/latest</downloadUri>
 </Manifest>

@@ -1,0 +1,25 @@
+<Patch>
+    <Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>Anomaly</li>
+        </mods>
+    </Operation>
+    
+    <Operation Class="PatchOperationSequence">
+        <success>Always</success>
+        <operations>
+		
+            <!-- Bioferrite Patch Flammability -->
+            <!-- Uncomment me for Bioferrite nonFlammability!
+			<li Class="PatchOperationReplace">
+                <xpath>/Defs/ThingDef[defName="Bioferrite"]/stuffProps/statFactors/Flammability</xpath>
+                <value>
+                    <Flammability>0</Flammability>
+                </value>
+            </li>
+			-->
+
+        </operations>
+    </Operation>
+
+</Patch>

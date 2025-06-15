@@ -1,0 +1,33 @@
+<Patch>
+
+    <!--==========
+    Expanded Materials - Metals
+    ==========-->
+
+    <!--Remove burning from select materials-->
+    <Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>Expanded Materials - Metals</li>
+        </mods>
+        <match Class="PatchOperationSequence">
+            <success>Always</success>
+            <operations>
+                <!--Remove burning from select materials-->
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/ThingDef[defName="EM_Iron" or defName="EM_MildSteel" or defName="EM_TemperedSteel" or defName="EM_Lead" or defName="EM_Bronze" or defName="EM_Tin" or defName="EM_Copper" or defName="EM_StainlessSteel" or defName="EM_Titanium" or defName="EM_Germanium" or defName="EM_Silicon"]/stuffProps/statFactors/Flammability</xpath>
+                    <value>
+                        <Flammability>0</Flammability>
+                    </value>
+                </li>
+                <!--Remove more burning from select materials-->
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/ThingDef[defName="VMEu_Lead" or defName="VMEu_Copper" or defName="VMEu_Chromium"]/stuffProps/statFactors/Flammability</xpath>
+                    <value>
+                        <Flammability>0</Flammability>
+                    </value>
+                </li>
+            </operations>
+        </match>
+    </Operation>
+
+</Patch>

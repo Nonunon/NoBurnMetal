@@ -1,0 +1,26 @@
+<Patch>
+
+    <!--==========
+    Alpha Animals
+    ==========-->
+
+    <!--Remove burning from select materials-->
+    <Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>Alpha Animals</li>
+        </mods>
+        <match Class="PatchOperationSequence">
+            <success>Always</success>
+            <operations>
+                <!--Remove burning from select materials-->
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/ThingDef[defName="AA_SkySteel"]/stuffProps/statFactors/Flammability</xpath>
+                    <value>
+                        <Flammability>0</Flammability>
+                    </value>
+                </li>
+            </operations>
+        </match>
+    </Operation>
+
+</Patch>

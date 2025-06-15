@@ -1,0 +1,26 @@
+<Patch>
+
+    <Operation Class="PatchOperationSequence">
+        <success>Always</success>
+        <operations>
+
+            <!-- Grouped Flammability Patches -->
+            <li Class="PatchOperationReplace">
+                <xpath>/Defs/ThingDef[defName="Steel" or defName="Plasteel" or defName="Silver" or defName="Gold" or defName="Jade" or defName="Uranium"]/stuffProps/statFactors/Flammability</xpath>
+                <value>
+                    <Flammability>0</Flammability>
+                </value>
+            </li>
+
+            <!-- Power Conduits -->
+            <li Class="PatchOperationReplace">
+                <xpath>/Defs/ThingDef[defName="PowerConduit" or defName="WaterproofConduit" or defName="PowerSwitch"]/statBases/Flammability</xpath>
+                <value>
+                    <Flammability>0</Flammability>
+                </value>
+            </li>
+
+        </operations>
+    </Operation>
+
+</Patch>
