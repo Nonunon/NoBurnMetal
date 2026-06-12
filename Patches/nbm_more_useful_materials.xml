@@ -1,13 +1,13 @@
 <Patch>
 
     <!--==========
-    Expanded Materials - Metals
+    [CNEIO] More Useful Materials
     ==========-->
 
     <!--Remove burning from select materials-->
     <Operation Class="PatchOperationFindMod">
         <mods>
-            <li>Expanded Materials - Metals</li>
+            <li>More Useful Materials</li>
         </mods>
         <match Class="PatchOperationSequence">
             <success>Always</success>
@@ -15,13 +15,6 @@
                 <!--Remove burning from select materials-->
                 <li Class="PatchOperationReplace">
                     <xpath>/Defs/ThingDef[defName="MUM_TemperedSteel" or defName="MUM_CarbonFiber" or defName="MUM_AdvancedCeramic" or defName="MUM_HeavyDUComposite"]/stuffProps/statFactors/Flammability</xpath>
-                    <value>
-                        <Flammability>0</Flammability>
-                    </value>
-                </li>
-                <!--Remove more burning from select materials-->
-                <li Class="PatchOperationReplace">
-                    <xpath>/Defs/ThingDef[defName="VMEu_Lead" or defName="VMEu_Copper" or defName="VMEu_Chromium"]/stuffProps/statFactors/Flammability</xpath>
                     <value>
                         <Flammability>0</Flammability>
                     </value>
