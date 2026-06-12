@@ -10,7 +10,7 @@ In vanilla RimWorld, metals like steel and plasteel inexplicably catch fire. **N
 # Supported Modded Metals:
 
 ## Expanded Materials - Metals ([1.4](https://steamcommunity.com/workshop/filedetails/?id=2259837114) OR [1.5+](https://steamcommunity.com/sharedfiles/filedetails/?id=3333419387))
-* Different versions have different metals, but have no fear! — No Burn Metal is here.
+* Different versions have different metals, but have no fear! -- No Burn Metal is here.
 
 ## Alpha Animals ([Link](https://steamcommunity.com/sharedfiles/filedetails/?id=1541721856))
 * Sky Steel
