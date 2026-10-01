@@ -5,30 +5,43 @@
     <packageId>Unon.NoBurnMetal</packageId>
     <url>https://github.com/Nonunon/NoBurnMetal</url>
     <description> Just making all the metalic lookin' things non-flammable, don't mind me.
-    
+
+NEW IN 1.9: MOD SETTINGS (1.6+)
+Options > Mod Settings > No Burn Metal. Flip things on or off one item at a time.
+- ON = No Burn (Metal). OFF = Yes Burn.
+- The metals this mod has always covered start ON.
+- Metals from mods it doesn't know about show up too, but start OFF until you flip them.
+- Items that already don't burn (Plasteel, Jade, Uranium) aren't listed, there's nothing to toggle. They were born fireproof. Show-offs.
+
 NO LONGER FLAMMABLE
-- Steel, Plasteel, Gold, Silver, Power Conduits (Waterproof too!), Power Switches
+- Steel, Silver, Gold, Power Conduits (Waterproof too!), Power Switches
 
-[MODDED] - Metals added by Expanded Materials - Metals (1.4 OR 1.5)
-- Different versions have different metals, but have no fear! -- No Burn Metal . . . is here.
+SUPPORTED MODDED METALS
+[MODDED] - Expanded Materials - Metals (1.4 OR 1.5+)
+- Different versions have different metals, but have no fear! No Burn Metal is here.
 
-[MODDED] - Added by Alpha Animals
+[MODDED] - Alpha Animals
 - Sky Steel
 
-[MODDED] - Added by Vanilla Factions Expanded - Classical
+[MODDED] - Vanilla Factions Expanded - Classical
 - Bronze
 
-[MODDED] - Added by Medieval Overhaul
+[MODDED] - Medieval Overhaul
 - Iron
 
-[MODDED] - Added by Cupro's Alloys (Continued)
+[MODDED] - Cupro's Alloys (Continued)
 - Far too many to list.
 
-[MODDED] - Added by More Useful Materials
-- Tempered Steel, Carbon Fiber Composite, Advanced Ceramics, Heavy DU-Composite Steel
+[MODDED] - More Useful Materials
+- Carbon Fiber Composite, Heavy DU-Composite Steel, and any other metals it adds
+
+COMPATIBILITY
+- Safe to add or remove mid-save.
+- The settings menu is 1.6+. Older versions still get the plain old always-on patches.
+- Still burning? On 1.9 or higher, check the settings, the item may be switched off. On older versions, load this AFTER all the mods it patches.
 
 Expanded Materials - Metals patch done by Dr_Zhivago
-    
+
 </description>
 
     <supportedVersions>

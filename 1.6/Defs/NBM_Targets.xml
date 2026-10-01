@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <NoBurnMetal.NBMTargetsDef>
+    <defName>NBM_Targets</defName>
+    <defNames>
+      <li>Steel</li>
+      <li>Silver</li>
+      <li>Gold</li>
+      <li>PowerConduit</li>
+      <li>WaterproofConduit</li>
+      <li>PowerSwitch</li>
+      <li>Bioferrite</li>
+      <li>AA_SkySteel</li>
+      <li>DankPyon_IronIngot</li>
+      <li>VFEC_Bronze</li>
+      <li>MUM_CarbonFiber</li>
+      <li>MUM_HeavyDUComposite</li>
+      <li>CAL_Plastin</li>
+      <li>CAL_BlackSteel</li>
+      <li>CAL_Brass</li>
+      <li>CAL_ChromePlatedSteel</li>
+      <li>CAL_Aurichalcum</li>
+      <li>CAL_SterlingSilver</li>
+      <li>CAL_RoseGold</li>
+      <li>CAL_Electrum</li>
+      <li>CAL_Plumchalcum</li>
+      <li>CAL_Duralumin</li>
+      <li>CAL_Zamak</li>
+      <li>CAL_BismuthBronze</li>
+      <li>CAL_Bronze</li>
+      <li>CAL_Cupronickel</li>
+      <li>CAL_StainlessSteel</li>
+      <li>CAL_Hepatzion</li>
+      <li>CAL_Copper</li>
+      <li>CAL_Lead</li>
+      <li>CAL_Tin</li>
+      <li>CAL_Aluminum</li>
+      <li>CAL_Nickel</li>
+      <li>CAL_Zinc</li>
+      <li>CAL_Bismuth</li>
+      <li>CAL_Chromium</li>
+    </defNames>
+
+    <knownMods>
+      <li>
+        <packageId>Argon.ExpandedMaterials.Metals</packageId>
+        <label>Expanded Materials - Metals</label>
+      </li>
+      <li>
+        <packageId>sarg.alphaanimals</packageId>
+        <label>Alpha Animals</label>
+      </li>
+      <li>
+        <packageId>OskarPotocki.VFE.Classical</packageId>
+        <label>Vanilla Factions Expanded - Classical</label>
+      </li>
+      <li>
+        <packageId>DankPyon.Medieval.Overhaul</packageId>
+        <label>Medieval Overhaul</label>
+      </li>
+      <li>
+        <packageId>Mlie.CuprosAlloys</packageId>
+        <label>Cupro's Alloys (Continued)</label>
+      </li>
+      <li>
+        <packageId>CN.MoreUsefulMaterials</packageId>
+        <label>More Useful Materials</label>
+      </li>
+    </knownMods>
+  </NoBurnMetal.NBMTargetsDef>
+
+</Defs>

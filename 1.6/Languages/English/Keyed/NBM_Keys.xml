@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <NBM_ModName>No Burn Metal</NBM_ModName>
+  <NBM_Search>Search items or mods...</NBM_Search>
+  <NBM_NoResults>Nothing matches your search.</NBM_NoResults>
+
+  <NBM_ExpandAll>Expand all</NBM_ExpandAll>
+  <NBM_CollapseAll>Collapse all</NBM_CollapseAll>
+  <NBM_EnableAll>Enable all</NBM_EnableAll>
+  <NBM_DisableAll>Disable all</NBM_DisableAll>
+  <NBM_AllOn>All on</NBM_AllOn>
+  <NBM_AllOff>All off</NBM_AllOff>
+
+  <NBM_HideInactive>Hide mods that aren't active</NBM_HideInactive>
+  <NBM_HideInactiveTip>Supported mods that aren't in your mod list are shown greyed out unless this is on.</NBM_HideInactiveTip>
+  <NBM_NotActive>not active</NBM_NotActive>
+  <NBM_Summary>{0} of {1} items are fireproof</NBM_Summary>
+
+  <NBM_StateOn>Fireproof</NBM_StateOn>
+  <NBM_StateOff>Default flammability</NBM_StateOff>
+
+  <NBM_Factor>flammability factor</NBM_Factor>
+  <NBM_Base>base flammability</NBM_Base>
+  <NBM_Unset>unset</NBM_Unset>
+  <NBM_ItemTip>{0} (from {1})\n\nON: {2} is set to 0, so it can't catch fire.\nOFF: the def's own value is used ({3}).\n\nChanges apply immediately, no restart needed.</NBM_ItemTip>
+
+</LanguageData>

@@ -1,2 +1,9 @@
 
 About/PublishedFileId.txt
+
+# Build intermediates (the compiled DLL under 1.6/Assemblies is kept on purpose)
+Source/**/obj/
+Source/**/bin/
+Release/
+*.zip
+Deploy.ps1
