@@ -1,6 +1,8 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Reflection;
+using System.Runtime.Versioning;
 using RimWorld;
 using UnityEngine;
 using Verse;
@@ -31,6 +33,11 @@ namespace NoBurnMetal
         public NoBurnMetalMod(ModContentPack content) : base(content)
         {
             Settings = GetSettings<NBMSettings>();
+
+            var asm = typeof(NoBurnMetalMod).Assembly;
+            string version = asm.GetCustomAttribute<AssemblyInformationalVersionAttribute>()?.InformationalVersion ?? "?";
+            string build = asm.GetCustomAttribute<TargetFrameworkAttribute>()?.FrameworkName.Contains("NETCoreApp") == true ? "1.7 build" : "1.6 build";
+            Log.Message($"[No Burn Metal] {version} ({build})");
         }
 
         public override string SettingsCategory() => "NBM_ModName".Translate();

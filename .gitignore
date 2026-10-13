@@ -7,3 +7,4 @@ Source/**/bin/
 Release/
 *.zip
 Deploy.ps1
+.ver
