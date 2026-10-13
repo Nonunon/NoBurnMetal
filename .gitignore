@@ -1,7 +1,7 @@
 
 About/PublishedFileId.txt
 
-# Build intermediates (the compiled DLL under 1.6/Assemblies is kept on purpose)
+# Build intermediates (the compiled DLLs under 1.6/Assemblies and 1.7/Assemblies are kept on purpose)
 Source/**/obj/
 Source/**/bin/
 Release/
