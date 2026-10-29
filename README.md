@@ -53,3 +53,4 @@ Any other questions can be asked in the [issues](https://github.com/Nonunon/NoBu
 
 **Contributions**
 * Expanded Materials - Metals (<1.4) patch generously provided by [Dr Zhivago](https://steamcommunity.com/profiles/76561198062060169/myworkshopfiles/)
+* Russian translation by [Antyhc](https://github.com/Antyhc)
