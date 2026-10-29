@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LanguageData>
+  <NBM_ModName>Негорючие металлы</NBM_ModName>
+  <NBM_Search>Поиск предметов или модов…</NBM_Search>
+  <NBM_NoResults>По вашему запросу ничего не найдено.</NBM_NoResults>
+  <NBM_ExpandAll>Развернуть всё</NBM_ExpandAll>
+  <NBM_CollapseAll>Свернуть всё</NBM_CollapseAll>
+  <NBM_EnableAll>Включить всё</NBM_EnableAll>
+  <NBM_DisableAll>Отключить всё</NBM_DisableAll>
+  <NBM_AllOn>Вкл. всё</NBM_AllOn>
+  <NBM_AllOff>Выкл. всё</NBM_AllOff>
+  <NBM_HideInactive>Скрывать неактивные моды</NBM_HideInactive>
+  <NBM_HideInactiveTip>Если отключено, поддерживаемые моды, отсутствующие в вашем списке активных модов, отображаются серым.</NBM_HideInactiveTip>
+  <NBM_NotActive>неактивен</NBM_NotActive>
+  <NBM_Summary>Не горят {0} из {1} предметов</NBM_Summary>
+  <NBM_StateOn>Не горит</NBM_StateOn>
+  <NBM_StateOff>Исходная горючесть</NBM_StateOff>
+  <NBM_Factor>множитель горючести</NBM_Factor>
+  <NBM_Base>базовая горючесть</NBM_Base>
+  <NBM_Unset>не задано</NBM_Unset>
+  <NBM_ItemTip>{0} (из мода {1})\n\nВКЛ.: {2} принимает значение 0, и предмет не может загореться.\nВЫКЛ.: используется исходное значение из определения ({3}).\n\nИзменения применяются сразу, перезапуск не требуется.</NBM_ItemTip>
+</LanguageData>
